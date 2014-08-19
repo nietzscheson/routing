@@ -1,0 +1,7 @@
+{
+    "name": "framework",
+    "version": "1.0.0",
+    "require": {
+        "symfony/routing": "2.1.*"
+    }
+}

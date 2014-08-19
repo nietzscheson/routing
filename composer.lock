@@ -1,0 +1,82 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "a33d5d4b14874c78ae878ca66f29b090",
+    "packages": [
+        {
+            "name": "symfony/routing",
+            "version": "v2.1.13",
+            "target-dir": "Symfony/Component/Routing",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Routing.git",
+                "reference": "6d3732663789b6e1bd79197f9bd0c582cb72da81"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Routing/zipball/6d3732663789b6e1bd79197f9bd0c582cb72da81",
+                "reference": "6d3732663789b6e1bd79197f9bd0c582cb72da81",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "doctrine/common": "~2.2",
+                "symfony/config": "2.1.*",
+                "symfony/http-kernel": "2.1.*",
+                "symfony/yaml": "2.1.*"
+            },
+            "suggest": {
+                "doctrine/common": "~2.2",
+                "symfony/config": "2.1.*",
+                "symfony/yaml": "2.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Routing": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Routing Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-05-06 10:48:41"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ],
+    "prefer-stable": false,
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
